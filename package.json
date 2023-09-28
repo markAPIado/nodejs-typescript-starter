@@ -19,7 +19,8 @@
     "format-check:darwin:linux": "prettier --config .prettierrc 'src/**/*.ts' --check",
     "format-check:default": "prettier --config .prettierrc 'src/**/*.ts' --check",
     "test": "jest",
-    "test:watch": "jest --watchAll"
+    "test:watch": "jest --watchAll",
+    "prepare": "husky install"
   },
   "keywords": [
     "NodeJs",
@@ -53,7 +54,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm test && npm run format && npm run lint"
+      "pre-commit": "npm run format && npm run lint",
+      "pre-push": "npm test"
     }
   }
 }
