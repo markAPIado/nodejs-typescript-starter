@@ -1,0 +1,21 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "prettier"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "rules": {
+    // TODO: Add rules here according to your coding style preferences
+    "no-console": 1,
+    "no-unused-vars": 1,
+    "no-empty": 1,
+    "no-empty-function": 1,
+    "no-duplicate-imports": 2,
+    // Prettier rule below will override the default ESLint rule.
+    "prettier/prettier": 2
+  }
+}
