@@ -11,7 +11,7 @@
   "rules": {
     // TODO: Add rules here according to your coding style preferences
     "no-console": 1,
-    "no-unused-vars": 1,
+    "@typescript-eslint/no-unused-vars": 1,
     "no-empty": 1,
     "no-empty-function": 1,
     "no-duplicate-imports": 2,
