@@ -1,6 +1,6 @@
 # NodeJs Typescript Starter
 
-This a simple Typescript-based NodeJs starter template. It is a good way to start a new project with all the necessary tools and configurations. You can easily clone this repository and start working on your custom NodeJs package or NodeJs server.
+This is a simple Typescript-based NodeJs starter template. It is a good way to start a new project with all the necessary tools and configurations. You can easily clone this repository and start working on your custom NodeJs package or NodeJs server.
 
 This is inspired by Khalil Stemmler's [simple-typescript-starter](https://github.com/stemmlerjs/simple-typescript-starter/tree/master).
 
